@@ -36,4 +36,62 @@ footer {
   border-top: 1px solid #cccccc;
   font-size: 14px;
 }
-<link rel="stylesheet" href="style.css">
+
+h1 {
+  color: #49331f;
+}
+
+h2 {
+  margin-top: 28px;
+}
+
+a {
+  color: #704214;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: white;
+}
+
+th,
+td {
+  border: 1px solid #cccccc;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #eee2d3;
+}
+
+dt {
+  font-weight: bold;
+  margin-top: 18px;
+}
+
+dd {
+  margin-left: 0;
+  margin-bottom: 14px;
+}
+
+.highlight {
+  background-color: #eee2d3;
+  border-left: 4px solid #704214;
+  padding: 16px;
+}
+
+#home-title {
+  font-size: 36px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
